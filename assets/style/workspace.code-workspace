@@ -1,0 +1,31 @@
+{
+	"folders": [],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "CSS",
+		"workbench.colorCustomizations": {
+			"activityBar.activeBackground": "#fad656",
+			"activityBar.activeBorder": "#059b7a",
+			"activityBar.background": "#fad656",
+			"activityBar.foreground": "#15202b",
+			"activityBar.inactiveForeground": "#15202b99",
+			"activityBarBadge.background": "#059b7a",
+			"activityBarBadge.foreground": "#e7e7e7",
+			"sash.hoverBorder": "#fad656",
+			"statusBar.background": "#f9ca24",
+			"statusBar.foreground": "#15202b",
+			"statusBarItem.hoverBackground": "#e4b306",
+			"statusBarItem.remoteBackground": "#f9ca24",
+			"statusBarItem.remoteForeground": "#15202b",
+			"titleBar.activeBackground": "#f9ca24",
+			"titleBar.activeForeground": "#15202b",
+			"titleBar.inactiveBackground": "#f9ca2499",
+			"titleBar.inactiveForeground": "#15202b99"
+		},
+		"peacock.color": "#f9ca24",
+		"files.associations": {
+			"iostream": "cpp",
+			"ostream": "cpp",
+			"typeinfo": "cpp"
+		}
+	}
+}
