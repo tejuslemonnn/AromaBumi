@@ -540,6 +540,10 @@ footer a{
 /* responsive navbar */
 @media (max-width: 767px){
 
+    body{
+        overflow-x: hidden;
+    }
+
     html{
         font-size: 62.5%;
     }
