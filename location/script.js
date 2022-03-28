@@ -29,11 +29,6 @@ for(let i = 0; i < showSubMenu.length; i++){
     });
 }
 
-/* ------------------- Location ------------------- */
-const showLocation = document.querySelector('.show-location');
-const location = document.querySelector('.location');
-const ourStore = document.querySelector('.loc__our');
-
 /* ------------------- Footer ------------------- */
 const showSubHeader = document.querySelectorAll('.show-sub-footer');
         const arrowFooter = document.querySelectorAll('.footer--arrow');
