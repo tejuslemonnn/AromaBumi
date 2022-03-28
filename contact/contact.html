@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Location</title>
+    <title>Contact</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- CSS -->
-    <link rel="stylesheet" href="location.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
     <header>
@@ -21,7 +21,7 @@
                 </a>
             </div>
         </div>
-        
+
         <nav class="sidebar">
             <div class="show-navbar">
                 <a href="#" class="icon-hamburger">
@@ -46,7 +46,7 @@
                 <li class="menu">
                     <a href="#" class="show-sub-menu">Store <i class="fas fa-angle-down arrow"></i></a>
                     <ul class="list-sub-menu">
-                        <li class="sub-menu"><a href="location.html">Location</a></li>
+                        <li class="sub-menu"><a href="../location/location.html">Location</a></li>
                     </ul>
                 </li>
     
@@ -57,41 +57,78 @@
                     </ul>
                 </li>
             </ul>
-            
-           
         </nav>
     </header>
 
-    <div class="container-loc">
-        <div class="loc__body">
-            
-            <iframe class="location show-location loc__block71" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.27629260744!2d106.83121201484079!3d-6.227256895492217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3ee271a2a91%3A0x1a27577809196067!2sAriobimo%20Sentral%2C%20Jl.%20H.%20R.%20Rasuna%20Said%20No.Kav.%20X-2%20No.%205%2C%20RT.9%2FRW.4%2C%20Kuningan%20Tim.%2C%20Kecamatan%20Setiabudi%2C%20Kota%20Jakarta%20Selatan%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2012950!5e0!3m2!1sen!2sid!4v1648356743396!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <iframe class="location loc__woodland" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.06410805162!2d106.85428021476939!3d-6.255284895472218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3ad6769dc4f%3A0x2697c38181bd4f97!2sWoodland%20Park%20Residence%20Apartment!5e0!3m2!1sen!2sid!4v1648374527131!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <iframe class="location loc__ikea"   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.338368110034!2d106.66088411484066!3d-6.219033395498122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f9633de7e6e7%3A0x6077e13814a0a28f!2sIkea%20Alam%20Sutera%2C%20Kunciran%2C%20Kec.%20Pinang%2C%20Kota%20Tangerang%2C%20Banten!5e0!3m2!1sen!2sid!4v1648374606279!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="container-cs">
 
-            <div class="loc__content">
-                <div class="loc__heading">
-                    <h2 class="loc__header">Find Us!</h2>
-                    <p class="loc__txt">Come Visit us our store or deliver to your house!</p>
-                </div>
-                <div class="loc__our">
-                    <h6 class="loc__our-name">Block71</h6>
-                    <p class="loc__our-address">Ariobimo Sentral, South Jakarta, RT.9/RW.4, East Kuningan, Setiabudi, Jakarta,12950</p>
+        <div class="cs__body">
+
+            <div class="cs__heading">
+
+                <h3 class="cs__header">
+                    How Can we help?
+                </h3>
+
+                <div class="cs__form">
+                    <form class="my-form">
+
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" class="input" placeholder="Name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="input" placeholder="Email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="number">Phone Number</label>
+                            <input type="number" id="number" class="input" placeholder="Phone number" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" class="input" placeholder="subject" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" placeholder="Message"></textarea>
+                        </div>
+
+                        <div class="form-btn">
+                            <button id="open">Submit</button>
+                        </div>
+
+                        </div>
+                    </form>
+                    
+                    <div class="modal-wrapper">
+
+                    <div class="modal-container">
+                        <div class="modal">
+                            <i class="fas fa-x close-modal" id="close"></i>
+                            
+                            <p class="modal-txt">
+                                Your data will be submitted, are you sure?
+                            </p>
+
+                            <div class="modal-btn">
+                                <button class="modal-btn__submit" type="submit">Yes, I`m sure</button>
+                                <button class="modal-btn__close" id="close" >Not Yet</button>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
-                <div class="loc__our">
-                    <h6 class="loc__our-name">Woodland Park Residence</h6>
-                    <p class="loc__our-address">Jl. Raya Kalibata No.22, RW.7, Rajawati, Kec. Pancoran Kota Jakarta Selatan, Daerah khusus ibukota Jakarta 12750</p>
-                </div>
-
-                <div class="loc__our">
-                    <h6 class="loc__our-name">IKEA Alama Sutera</h6>
-                    <p class="loc__our-address">Jl. Alam Sutera Boulevard No.45, Kunciran, Kec. Pinang, Kota Tangerang, Banten 15320</p>
                 </div>
             </div>
 
-
         </div>
+
     </div>
 
     <footer>
@@ -133,14 +170,14 @@
             <ul class="footer__store">
                 <li class="footer__store--title show-sub-footer">Store <i class="fas fa-angle-right footer--arrow"></i></li>
                 <ul class="sub__footer">    
-                    <li class="footer__store--sub"><a href="location.html" class="footer__link">Location</a></li>
+                    <li class="footer__store--sub"><a href="../location/location.html" class="footer__link">Location</a></li>
                 </ul>
             </ul>
 
             <ul class="footer__contact">
                 <li class="footer__contact--title show-sub-footer">Contact <i class="fas fa-angle-right footer--arrow"></i></li>
                     <ul class="sub__footer">
-                        <li class="footer__contact--sub"><a href="../contact/contact.html" class="footer__link">Customer Service</a></li>
+                        <li class="footer__contact--sub"><a href="contact.html" class="footer__link">Customer Service</a></li>
                     </ul>
             </ul>
         </div>
@@ -150,6 +187,6 @@
         </div>
     </footer>
 
-    <script src="srcript.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

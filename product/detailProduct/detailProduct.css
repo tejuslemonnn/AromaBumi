@@ -30,7 +30,7 @@ header,
 .slider,
 footer{
     border-radius: 20px;
-    background-color: #825524;
+    background: linear-gradient(-3deg, rgb(81, 51, 35) 10%, rgb(130, 85, 36) 100%);
 }
 
 header{
@@ -309,7 +309,6 @@ footer a{
     line-height: 40px;
     background-color: #4a3014;
     border-radius: 10px;
-    padding: 10px 20px;
 }
 
 .copyright{
